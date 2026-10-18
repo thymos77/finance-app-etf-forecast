@@ -1,0 +1,158 @@
+[
+  {
+    "ticker": "069500",
+    "name": "KODEX 200",
+    "threeYearCagr": 0.0912,
+    "asOf": "2026-09-30"
+  },
+  {
+    "ticker": "360750",
+    "name": "TIGER 미국S&P500",
+    "threeYearCagr": 0.1834,
+    "asOf": "2026-09-30"
+  },
+  {
+    "ticker": "133690",
+    "name": "TIGER 미국나스닥100",
+    "threeYearCagr": 0.2156,
+    "asOf": "2026-09-30"
+  },
+  {
+    "ticker": "379800",
+    "name": "KODEX 미국S&P500TR",
+    "threeYearCagr": 0.1821,
+    "asOf": "2026-09-30"
+  },
+  {
+    "ticker": "379810",
+    "name": "KODEX 미국나스닥100TR",
+    "threeYearCagr": 0.2143,
+    "asOf": "2026-09-30"
+  },
+  {
+    "ticker": "305720",
+    "name": "KODEX 2차전지산업",
+    "threeYearCagr": 0.0378,
+    "asOf": "2026-09-30"
+  },
+  {
+    "ticker": "091160",
+    "name": "KODEX 반도체",
+    "threeYearCagr": 0.1467,
+    "asOf": "2026-09-30"
+  },
+  {
+    "ticker": "102110",
+    "name": "TIGER 200",
+    "threeYearCagr": 0.0905,
+    "asOf": "2026-09-30"
+  },
+  {
+    "ticker": "229200",
+    "name": "KODEX 코스닥150",
+    "threeYearCagr": 0.0214,
+    "asOf": "2026-09-30"
+  },
+  {
+    "ticker": "114800",
+    "name": "KODEX 인버스",
+    "threeYearCagr": -0.0612,
+    "asOf": "2026-09-30"
+  },
+  {
+    "ticker": "122630",
+    "name": "KODEX 레버리지",
+    "threeYearCagr": 0.1389,
+    "asOf": "2026-09-30"
+  },
+  {
+    "ticker": "148020",
+    "name": "KBSTAR 200",
+    "threeYearCagr": 0.0908,
+    "asOf": "2026-09-30"
+  },
+  {
+    "ticker": "152100",
+    "name": "ARIRANG 200",
+    "threeYearCagr": 0.0899,
+    "asOf": "2026-09-30"
+  },
+  {
+    "ticker": "278530",
+    "name": "KODEX 200TR",
+    "threeYearCagr": 0.0951,
+    "asOf": "2026-09-30"
+  },
+  {
+    "ticker": "292150",
+    "name": "TIGER 코리아TOP10",
+    "threeYearCagr": 0.1042,
+    "asOf": "2026-09-30"
+  },
+  {
+    "ticker": "305540",
+    "name": "TIGER 2차전지테마",
+    "threeYearCagr": 0.0351,
+    "asOf": "2026-09-30"
+  },
+  {
+    "ticker": "371460",
+    "name": "TIGER 차이나전기차SOLACTIVE",
+    "threeYearCagr": -0.0287,
+    "asOf": "2026-09-30"
+  },
+  {
+    "ticker": "381170",
+    "name": "TIGER 미국테크TOP10 INDXX",
+    "threeYearCagr": 0.2312,
+    "asOf": "2026-09-30"
+  },
+  {
+    "ticker": "411060",
+    "name": "ACE 미국빅테크TOP7 Plus",
+    "threeYearCagr": 0.2478,
+    "asOf": "2026-09-30"
+  },
+  {
+    "ticker": "360200",
+    "name": "ACE 미국S&P500",
+    "threeYearCagr": 0.1809,
+    "asOf": "2026-09-30"
+  },
+  {
+    "ticker": "453810",
+    "name": "KODEX 인도Nifty50",
+    "threeYearCagr": 0.1264,
+    "asOf": "2026-09-30"
+  },
+  {
+    "ticker": "449450",
+    "name": "PLUS K방산",
+    "threeYearCagr": 0.1983,
+    "asOf": "2026-09-30"
+  },
+  {
+    "ticker": "261220",
+    "name": "KODEX WTI원유선물(H)",
+    "threeYearCagr": 0.0127,
+    "asOf": "2026-09-30"
+  },
+  {
+    "ticker": "132030",
+    "name": "KODEX 골드선물(H)",
+    "threeYearCagr": 0.1096,
+    "asOf": "2026-09-30"
+  },
+  {
+    "ticker": "157450",
+    "name": "TIGER 머니마켓액티브",
+    "threeYearCagr": 0.0338,
+    "asOf": "2026-09-30"
+  },
+  {
+    "ticker": "143850",
+    "name": "TIGER 미국S&P500선물(H)",
+    "threeYearCagr": 0.1617,
+    "asOf": "2026-09-30"
+  }
+]

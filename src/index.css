@@ -1,0 +1,288 @@
+:root {
+  --bg: #f6f7f9;
+  --surface: #fff;
+  --text: #1c2330;
+  --muted: #667085;
+  --border: #d5d9e0;
+  --primary: #2563eb;
+  --positive: #d92d20;
+  --negative: #1d4ed8;
+  --error: #b42318;
+  color-scheme: light;
+  font-family:
+    system-ui,
+    -apple-system,
+    'Noto Sans KR',
+    sans-serif;
+  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+h1 {
+  margin: 0 0 24px;
+  font-size: 1.5rem;
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  min-width: 0;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: inherit;
+  font: inherit;
+}
+
+input[aria-invalid='true'] {
+  border-color: var(--error);
+}
+
+.input-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.unit {
+  flex: none;
+  color: var(--muted);
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.chip {
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+.listbox {
+  margin: 4px 0 0;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  list-style: none;
+}
+
+.option {
+  padding: 10px 12px;
+  cursor: pointer;
+  overflow-wrap: anywhere;
+}
+
+.option.active,
+.option:hover {
+  background: #eaf1ff;
+}
+
+.selected p {
+  margin: 8px 0 0;
+}
+
+.muted {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+.error {
+  margin: 6px 0 0;
+  color: var(--error);
+  font-size: 0.875rem;
+}
+
+.primary {
+  width: 100%;
+  padding: 12px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--primary);
+  color: #fff;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.primary:disabled {
+  background: #a9b4c6;
+  cursor: not-allowed;
+}
+
+.result {
+  margin-top: 24px;
+  padding: 16px;
+  border-radius: 12px;
+  background: var(--surface);
+  box-shadow: 0 1px 3px rgb(16 24 40 / 0.1);
+}
+
+.result dl {
+  margin: 0;
+}
+
+.result dl > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.result dt {
+  color: var(--muted);
+}
+
+.result dd {
+  margin: 0;
+  font-weight: 600;
+  text-align: right;
+  overflow-wrap: anywhere;
+  word-break: break-all;
+}
+
+.result dd.strong {
+  font-size: 1.25rem;
+}
+
+.result dd.positive {
+  color: var(--positive);
+}
+
+.result dd.negative {
+  color: var(--negative);
+}
+
+input[type='checkbox'] {
+  width: auto;
+  margin-right: 8px;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+}
+
+.rate-source {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+.chip:disabled {
+  color: var(--muted);
+  cursor: not-allowed;
+}
+
+.link {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--primary);
+  font: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.chart {
+  width: 100%;
+  min-width: 0;
+  margin-top: 16px;
+  padding: 8px;
+  border-radius: 12px;
+  background: var(--surface);
+  overflow: hidden;
+}
+
+.saved h2,
+.comparison h2 {
+  font-size: 1.125rem;
+}
+
+.saved ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.saved li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.saved .chip {
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+
+.comparison {
+  margin-top: 24px;
+}
+
+.comparison table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.comparison th,
+.comparison td {
+  padding: 6px 4px;
+  border-bottom: 1px solid var(--border);
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+
+.comparison th:first-child {
+  text-align: left;
+}
